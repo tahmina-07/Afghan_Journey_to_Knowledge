@@ -1,0 +1,33 @@
+/* Full background color and body styling */
+body {
+    background-color: dodgerblue; /* Sets the background color */
+    margin: 0;                    /* Removes default margin */
+    height: 100vh;                /* Full viewport height */
+    display: flex;                /* Activates Flexbox for easy centering */
+    flex-direction: column;       /* Stacks children vertically */
+    justify-content: center;      /* Centers content vertically */
+    align-items: center;          /* Centers content horizontally */
+}
+
+/* Styles for the header */
+header {
+    text-align: center;           /* Centers text inside the header */
+    margin-bottom: 20px;         /* Adds space between header and button */
+}
+
+/* Styling for the button container */
+.button-container {
+    display: flex;                /* Optional: to center the button */
+    justify-content: center;      /* Centers the button horizontally */
+}
+
+/* Button styling */
+button {
+    background-color: yellow;     /* Button background color */
+    color: black;                 /* Button text color */
+    padding: 10px 20px;          /* Button padding */
+    border: none;                 /* No border */
+    border-radius: 5px;          /* Rounded corners */
+    font-size: 16px;              /* Button font size */
+    cursor: pointer;              /* Pointer cursor on hover */
+}
